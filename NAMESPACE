@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(genlasso,genlasso)
+importFrom("stats", "cor", "cutree", "dist", "hclust")
+import(Matrix, tibble, MASS, ggplot2)

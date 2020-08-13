@@ -1,0 +1,22 @@
+Package: WLasso
+Type: Package
+Title: Variable Selection for Highly Correlated Predictors
+Version: 1.0
+Date: 2020-08-07
+Authors@R: c(person("Wencan", "Zhu", email = "wencan.zhu@agroparistech.fr", role = c("aut", "cre")),
+           person("Celine","Levy-Leduc", email="celine.levy-leduc@agroparistech.fr", role = "ctb"),
+           person("Nils", "Ternes", email="Nils.Ternes@sanofi.com", role = "ctb"))
+Author: Wencan Zhu [aut, cre],
+  Celine Levy-Leduc [ctb],
+  Nils Ternes [ctb]
+Maintainer: Wencan Zhu <wencan.zhu@agroparistech.fr>
+Description: It proposes a novel variable selection approach taking into account the correlations that may exist between the predictors of the design matrix in a high-dimensional linear model. Our approach consists in rewriting the initial high-dimensional linear model to remove the correlation between the predictors and in applying the generalized Lasso criterion. For further details we refer the reader to the paper <arXiv:2007.10768> (Zhu et al., 2020). 
+License: GPL-2
+Imports: Matrix, genlasso, tibble, MASS, ggplot2
+VignetteBuilder: knitr
+Suggests: knitr, markdown
+NeedsCompilation: no
+Packaged: 2020-08-07 16:41:37 UTC; mmip
+Depends: R (>= 3.5.0)
+Repository: CRAN
+Date/Publication: 2020-08-13 09:10:10 UTC
